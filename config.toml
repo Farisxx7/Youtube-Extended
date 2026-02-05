@@ -1,10 +1,13 @@
 Enable-magisk-update = true
 parallel-jobs = 1
+# --- TAMBAHAN BARU DI SINI ---
+rv-brand = "Extended"
+# -----------------------------
 
-# --- YOUTUBE (Versi Ringan & Khusus Root) ---
+# --- YOUTUBE (Versi Ringan & Aktif) ---
 [YouTube]
 build-mode = "module"
-# PERHATIKAN: Nama patch di bawah ini sekarang pakai tanda kutip satu ('...')
+# Fitur yang DIBUANG agar ringan (sesuai request Anda sebelumnya):
 excluded-patches = "'Shorts', 'Create button', 'Cast button', 'Wide Searchbar', 'Switch create button with notifications button', 'Return YouTube Dislike'"
 included-patches = ""
 version = "auto"
@@ -12,62 +15,20 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-# --- YOUTUBE MUSIC (Versi Ringan & Khusus Root) ---
+# --- YOUTUBE MUSIC (Versi Ringan & Aktif) ---
 [Music]
 build-mode = "module"
 arch = "both"
-# PERHATIKAN: Nama patch di bawah ini sekarang pakai tanda kutip satu ('...')
 excluded-patches = "'Upgrade button', 'Cast button', 'Taste building', 'Get premium'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-# --- APLIKASI LAIN (DIMATIKAN SEMUA) ---
-
+# --- BAGIAN BAWAH INI BIARKAN 'FALSE' (MATI) ---
 [GooglePhotos]
 enabled = false
-build-mode = "module"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "Extended"
-build-mode = "module"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# ... (dan seterusnya biarkan false)
 
 [YouTube-Extended]
 enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "Extended"
-build-mode = "module"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-[Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-
-[Twitter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-
-[TikTok]
-enabled = false
-included-patches = "'SIM spoof'"
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+# ... (biarkan false karena kita sudah pakai rv-brand di paling atas)
