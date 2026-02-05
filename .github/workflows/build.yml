@@ -143,5 +143,5 @@ jobs:
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}
-          POST="https://api.telegram.org/bot${7845966676:AAEvHhX25EnuF7CWMTqVPxjuhY944es2jsI}/sendMessage"
+          POST="https://api.telegram.org/bot${TOKEN}/sendMessage"
           curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
