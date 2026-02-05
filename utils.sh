@@ -673,7 +673,7 @@ MODULE_ARCH=$ma" >"$1/config"
 }
 module_prop() {
 	echo "id=${1}
-name=${2}
+name=Youtube Extended 
 version=v${3}
 versionCode=${NEXT_VER_CODE}
 author=Farizxx7
