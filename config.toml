@@ -7,7 +7,7 @@ rv-brand = "Extended"
 # --- YOUTUBE (Versi Ringan & Aktif) ---
 [YouTube]
 build-mode = "module"
-# Fitur yang DIBUANG agar ringan (sesuai request Anda sebelumnya):
+# Fitur yang DIBUANG agar ringan :
 excluded-patches = "'Shorts', 'Create button', 'Cast button', 'Wide Searchbar', 'Switch create button with notifications button', 'Return YouTube Dislike'"
 included-patches = ""
 version = "auto"
@@ -15,7 +15,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-# --- YOUTUBE MUSIC (Versi Ringan & Aktif) ---
+# --- YOUTUBE MUSIC Versi Ringan ---
 [Music]
 build-mode = "module"
 arch = "both"
@@ -31,4 +31,3 @@ enabled = false
 
 [YouTube-Extended]
 enabled = false
-# ... (biarkan false karena kita sudah pakai rv-brand di paling atas)
