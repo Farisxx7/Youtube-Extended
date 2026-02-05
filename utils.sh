@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MODULE_TEMPLATE_DIR="extended-magisk"
+MODULE_TEMPLATE_DIR="revanced-magisk"
 CWD=$(pwd)
 TEMP_DIR="temp"
 BIN_DIR="bin"
@@ -673,7 +673,7 @@ MODULE_ARCH=$ma" >"$1/config"
 }
 module_prop() {
 	echo "id=${1}
-name=Youtube Extended 
+name=${2}
 version=v${3}
 versionCode=${NEXT_VER_CODE}
 author=Farizxx7
