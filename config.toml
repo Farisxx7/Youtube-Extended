@@ -3,10 +3,9 @@ parallel-jobs = 1
 
 # --- YOUTUBE (Versi Ringan & Khusus Root) ---
 [YouTube]
-# "module" artinya hanya membuat Magisk Module (Root)
 build-mode = "module"
-# Fitur yang DIBUANG agar ringan:
-excluded-patches = "Shorts, Create button, Cast button, Wide Searchbar, Switch create button with notifications button, Return YouTube Dislike"
+# PERHATIKAN: Nama patch di bawah ini sekarang pakai tanda kutip satu ('...')
+excluded-patches = "'Shorts', 'Create button', 'Cast button', 'Wide Searchbar', 'Switch create button with notifications button', 'Return YouTube Dislike'"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
@@ -15,11 +14,10 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 
 # --- YOUTUBE MUSIC (Versi Ringan & Khusus Root) ---
 [Music]
-# "module" artinya hanya membuat Magisk Module (Root)
 build-mode = "module"
 arch = "both"
-# Fitur yang DIBUANG agar ringan:
-excluded-patches = "Upgrade button, Cast button, Taste building, Get premium"
+# PERHATIKAN: Nama patch di bawah ini sekarang pakai tanda kutip satu ('...')
+excluded-patches = "'Upgrade button', 'Cast button', 'Taste building', 'Get premium'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
