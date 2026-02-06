@@ -8,6 +8,7 @@ rv-brand = "Extended"
 # --- YOUTUBE (Versi Ringan & Extended) ---
 [YouTube]
 build-mode = "module"
+module-prop-name = "youtube-farizxx7"
 # Fitur yang DIBUANG (menggunakan tanda kutip satu '...'):
 excluded-patches = "'Shorts', 'Create button', 'Cast button', 'Wide Searchbar', 'Switch create button with notifications button', 'Return YouTube Dislike'"
 included-patches = ""
@@ -19,6 +20,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 # --- YOUTUBE MUSIC (Versi Ringan & Extended) ---
 [Music]
 build-mode = "module"
+module-prop-name = "music-farizxx7"
 arch = "both"
 # Fitur yang DIBUANG:
 excluded-patches = "'Upgrade button', 'Cast button', 'Taste building', 'Get premium'"
